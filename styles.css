@@ -309,8 +309,13 @@ h2 {
   object-fit: cover;
 }
 
+.section-grid > .media-card {
+  display: flex;
+}
+
 .section-grid > .media-card img {
-  height: clamp(320px, 38vw, 620px);
+  flex: 1;
+  min-height: 100%;
 }
 
 .feature-card {
@@ -430,10 +435,16 @@ h2 {
   background: linear-gradient(170deg, #12362a 0%, #0e2b21 100%);
   color: #d6eee2;
   border-top: 1px solid rgba(212, 224, 215, 0.2);
+  min-height: 50vh;
+  display: flex;
 }
 
 .footer-wrap {
   padding: 72px 0 44px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer-top {
