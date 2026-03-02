@@ -385,14 +385,18 @@ function setLanguage(lang) {
     document.title = `${title} | Mae Pai School Fund`;
   }
 
-  document.getElementById('lang-fr')?.classList.toggle('active', lang === 'fr');
-  document.getElementById('lang-en')?.classList.toggle('active', lang === 'en');
+  document.querySelectorAll('[data-lang]').forEach((button) => {
+    button.classList.toggle('active', button.dataset.lang === lang);
+  });
   localStorage.setItem('maepai-lang', lang);
 }
 
 function initLang() {
-  document.getElementById('lang-fr')?.addEventListener('click', () => setLanguage('fr'));
-  document.getElementById('lang-en')?.addEventListener('click', () => setLanguage('en'));
+  document.querySelectorAll('[data-lang]').forEach((button) => {
+    button.addEventListener('click', () => {
+      setLanguage(button.dataset.lang);
+    });
+  });
   const saved = localStorage.getItem('maepai-lang');
   setLanguage(saved === 'en' ? 'en' : 'fr');
 }

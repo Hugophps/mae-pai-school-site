@@ -152,6 +152,10 @@ img {
   display: none;
 }
 
+.desktop-lang {
+  display: inline-flex;
+}
+
 .donate-btn,
 .btn {
   display: inline-flex;
@@ -539,6 +543,10 @@ h2 {
   .nav-lang {
     display: block;
     margin-top: 6px;
+  }
+
+  .desktop-lang {
+    display: none;
   }
 
   .nav-lang .lang-toggle {
