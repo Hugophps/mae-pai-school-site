@@ -75,6 +75,10 @@ const I18N = {
         "Si les coûts de fonctionnement sont difficilement couverts, les investissements nécessaires à l'entretien et au renouvellement des équipements ne sont pas assurés.",
       s1Text3:
         "Avec de meilleures conditions matérielles, l'effectif pourrait revenir de 60 à 75-80 enfants. L'enjeu est aussi d'éviter des séparations familiales précoces.",
+      s1Text4:
+        "Aujourd'hui, certains parents se voient contraints d'envoyer leurs enfants dans d'autres villages dès les grandes classes afin de préserver leurs chances de poursuivre au collège. Cette situation fragilise le lien familial et accentue les inégalités.",
+      s1Text5:
+        "Sauver l'école de Mae Pai, c'est donc agir à la fois sur les conditions matérielles, la continuité pédagogique et la stabilité sociale du village.",
       s2Label: 'Historique et partenaires',
       s2Title: 'Une école née de la mission en terre karen',
       s2Text1:
@@ -249,6 +253,10 @@ const I18N = {
       s1Text1: 'Mae Pai school is a private Catholic school with no public subsidy.',
       s1Text2: 'Operating costs are barely covered while infrastructure investment is not secured.',
       s1Text3: 'Improved conditions could raise enrollment from 60 to 75-80 children.',
+      s1Text4:
+        'Some families are already forced to send children to other villages for upper primary levels, which weakens family stability and increases inequality.',
+      s1Text5:
+        'Saving Mae Pai school means improving facilities, ensuring educational continuity, and strengthening social stability in the village.',
       s2Label: 'History and partners',
       s2Title: 'A school born from mission work in Karen areas',
       s2Text1: 'Several Catholic schools were created in underserved Karen mountain villages under MEP mission work.',
@@ -389,5 +397,24 @@ function initLang() {
   setLanguage(saved === 'en' ? 'en' : 'fr');
 }
 
+function initMobileMenu() {
+  const toggle = document.getElementById('menu-toggle');
+  const nav = document.getElementById('main-nav');
+  if (!toggle || !nav) return;
+
+  toggle.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  nav.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+}
+
 setActiveNav();
 initLang();
+initMobileMenu();
