@@ -311,11 +311,17 @@ h2 {
 }
 
 .section-grid > .media-card {
-  height: auto;
+  position: relative;
+  min-height: 100%;
+  overflow: hidden;
 }
 
 .section-grid > .media-card img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .feature-card {
@@ -436,15 +442,10 @@ h2 {
   color: #d6eee2;
   border-top: 1px solid rgba(212, 224, 215, 0.2);
   min-height: 50vh;
-  display: flex;
 }
 
 .footer-wrap {
   padding: 72px 0 44px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .footer-top {
