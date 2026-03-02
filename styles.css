@@ -123,6 +123,7 @@ img {
   font-weight: 700;
   border: 1px solid transparent;
   padding: 0 18px;
+  transition: transform 180ms ease, filter 180ms ease, box-shadow 180ms ease;
 }
 
 .donate-btn,
@@ -133,6 +134,12 @@ img {
 
 .donate-btn {
   box-shadow: 0 8px 24px rgba(31, 95, 71, 0.25);
+}
+
+.donate-btn:hover,
+.btn:hover {
+  transform: scale(1.03);
+  filter: brightness(0.94);
 }
 
 .btn-secondary {
@@ -401,13 +408,13 @@ h2 {
 }
 
 .footer-wrap {
-  padding: 42px 0 28px;
+  padding: 58px 0 34px;
 }
 
 .footer-top {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr;
-  gap: 26px;
+  gap: 40px;
 }
 
 .footer-wrap h2,
@@ -427,9 +434,9 @@ h2 {
 .footer-links,
 .footer-nav,
 .footer-actions {
-  margin-top: 12px;
+  margin-top: 16px;
   display: grid;
-  gap: 8px;
+  gap: 12px;
 }
 
 .footer-wrap a {
@@ -441,9 +448,9 @@ h2 {
 }
 
 .footer-bottom {
-  margin-top: 22px;
+  margin-top: 30px;
   border-top: 1px solid rgba(214, 238, 226, 0.18);
-  padding-top: 14px;
+  padding-top: 18px;
   font-size: 0.88rem;
   color: #9ec1b0;
 }
