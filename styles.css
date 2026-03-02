@@ -312,7 +312,7 @@ h2 {
 
 .section-grid > .media-card {
   position: relative;
-  min-height: 100%;
+  min-height: 0;
   overflow: hidden;
 }
 
