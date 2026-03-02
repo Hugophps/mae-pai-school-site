@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sauvons l'ecole de Mae Pai</title>
+    <meta
+      name="description"
+      content="Collecte de fonds pour renover l'ecole de Mae Pai en Thailande et soutenir l'avenir des enfants karens."
+    />
+    <meta name="theme-color" content="#1f5f47" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="./assets/images/accueil-20260207_091604.jpg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand">Mae Pai School Fund</a>
+        <nav class="main-nav">
+          <a href="#context" data-i18n="nav.context"></a>
+          <a href="#village" data-i18n="nav.village"></a>
+          <a href="#school" data-i18n="nav.school"></a>
+          <a href="#needs" data-i18n="nav.needs"></a>
+          <a href="#support" data-i18n="nav.support"></a>
+          <a href="#contact" data-i18n="nav.contact"></a>
+        </nav>
+        <div class="lang-toggle" role="group" aria-label="Language switch">
+          <button id="lang-fr" class="active" type="button">FR</button>
+          <button id="lang-en" type="button">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <article class="hero-main card">
+          <img
+            src="./assets/images/accueil-20260207_091604.jpg"
+            alt="Village de Mae Pai"
+            width="1800"
+            height="1014"
+            fetchpriority="high"
+          />
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <p class="eyebrow" data-i18n="hero.kicker"></p>
+            <h1 data-i18n="hero.title"></h1>
+            <p data-i18n="hero.subtitle"></p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#support" data-i18n="hero.ctaPrimary"></a>
+              <a class="btn btn-secondary" href="#needs" data-i18n="hero.ctaSecondary"></a>
+            </div>
+          </div>
+        </article>
+
+        <aside class="hero-side">
+          <article class="card mini-card">
+            <h3 data-i18n="stats.childrenLabel"></h3>
+            <p class="value" data-i18n="stats.childrenValue"></p>
+          </article>
+          <article class="card mini-card">
+            <h3 data-i18n="stats.villageLabel"></h3>
+            <p class="value" data-i18n="stats.villageValue"></p>
+          </article>
+          <article class="card mini-card">
+            <h3 data-i18n="stats.priorityLabel"></h3>
+            <p class="value" data-i18n="stats.priorityValue"></p>
+          </article>
+        </aside>
+      </section>
+
+      <section class="container grid-two" id="context">
+        <article class="card media-card">
+          <img
+            src="./assets/images/karens-20260206_141803.jpg"
+            alt="Contexte Karen"
+            width="1800"
+            height="1193"
+            loading="lazy"
+            decoding="async"
+          />
+        </article>
+        <article class="card text-card">
+          <p class="section-label" data-i18n="context.label"></p>
+          <h2 data-i18n="context.title"></h2>
+          <p data-i18n="context.body1"></p>
+          <p data-i18n="context.body2"></p>
+        </article>
+      </section>
+
+      <section class="container split" id="village">
+        <article class="card text-card">
+          <p class="section-label" data-i18n="village.label"></p>
+          <h2 data-i18n="village.title"></h2>
+          <p data-i18n="village.body1"></p>
+          <p data-i18n="village.body2"></p>
+        </article>
+        <article class="stacked-images">
+          <img src="./assets/images/village-20260130_182746.jpg" alt="Village Mae Pai" width="1800" height="1014" loading="lazy" decoding="async" />
+          <img src="./assets/images/village-20260201_155423.jpg" alt="Village Tiloplo" width="1800" height="974" loading="lazy" decoding="async" />
+        </article>
+      </section>
+
+      <section class="container grid-two" id="school">
+        <article class="card media-card">
+          <img src="./assets/images/ecole-20260129_113103.jpg" alt="Ecole de Mae Pai" width="1800" height="1013" loading="lazy" decoding="async" />
+        </article>
+        <article class="card text-card">
+          <p class="section-label" data-i18n="school.label"></p>
+          <h2 data-i18n="school.title"></h2>
+          <p data-i18n="school.body1"></p>
+          <p data-i18n="school.body2"></p>
+          <p data-i18n="school.body3"></p>
+          <div class="pill-row">
+            <span>MEP</span>
+            <span>Enfants du Mekong</span>
+            <span data-i18n="school.localAssociation"></span>
+          </div>
+        </article>
+      </section>
+
+      <section class="container" id="needs">
+        <article class="card section-intro">
+          <p class="section-label" data-i18n="needs.label"></p>
+          <h2 data-i18n="needs.title"></h2>
+          <p data-i18n="needs.description"></p>
+        </article>
+
+        <div class="cards-grid three">
+          <article class="card feature-card">
+            <img src="./assets/images/renovation-20260128_111233.jpg" alt="Travaux de renovation" width="1800" height="1014" loading="lazy" decoding="async" />
+            <h3 data-i18n="needs.card1.title"></h3>
+            <p data-i18n="needs.card1.body"></p>
+          </article>
+          <article class="card feature-card">
+            <img src="./assets/images/renovation-20260128_110648.jpg" alt="Electricite ecole" width="1800" height="1014" loading="lazy" decoding="async" />
+            <h3 data-i18n="needs.card2.title"></h3>
+            <p data-i18n="needs.card2.body"></p>
+          </article>
+          <article class="card feature-card">
+            <img src="./assets/images/renovation-20260128_110740.jpg" alt="Besoins complementaires" width="1800" height="1014" loading="lazy" decoding="async" />
+            <h3 data-i18n="needs.card3.title"></h3>
+            <p data-i18n="needs.card3.body"></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="container grid-two" id="support">
+        <article class="card text-card">
+          <p class="section-label" data-i18n="support.label"></p>
+          <h2 data-i18n="support.title"></h2>
+          <p data-i18n="support.intro"></p>
+          <div class="action-list" id="support-list"></div>
+          <a class="btn btn-primary" href="https://volontairemep.com/" target="_blank" rel="noreferrer" data-i18n="support.volunteerBtn"></a>
+        </article>
+        <article class="card media-card tall">
+          <img src="./assets/images/volontariat-20260209_142952.jpg" alt="Volontariat a Mae Pai" width="1800" height="1014" loading="lazy" decoding="async" />
+        </article>
+      </section>
+
+      <section class="container cards-grid three gallery-row">
+        <article class="card media-card"><img src="./assets/images/volontariat-20260209_142935.jpg" alt="Cours et activites" width="1800" height="1014" loading="lazy" decoding="async" /></article>
+        <article class="card media-card"><img src="./assets/images/ecole-20260129_110536.jpg" alt="Vie scolaire" width="1800" height="1014" loading="lazy" decoding="async" /></article>
+        <article class="card media-card"><img src="./assets/images/karens-20260207_091623.jpg" alt="Communaute Karen" width="1800" height="1028" loading="lazy" decoding="async" /></article>
+      </section>
+
+      <section class="container" id="contact">
+        <article class="card contact-card">
+          <h2 data-i18n="contact.title"></h2>
+          <p data-i18n="contact.body"></p>
+          <div class="contact-actions">
+            <a href="mailto:mep.pab@gmail.com">mep.pab@gmail.com</a>
+            <a href="https://www.mepasie.org/" target="_blank" rel="noreferrer" data-i18n="contact.link"></a>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p data-i18n="footer.text"></p>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
