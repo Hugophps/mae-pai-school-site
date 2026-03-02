@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body data-page="school" data-title-key="school.title">
+    <div class="urgency-bar"><div class="container urgency-row"><span class="urgency-dot"></span><span data-i18n="common.urgency"></span></div></div>
+
     <header class="site-header">
       <div class="container header-row">
         <a class="brand" href="./index.html"><img src="./assets/logo-maepai.svg" alt="Mae Pai School Fund" /></a>
@@ -23,10 +25,7 @@
         </nav>
         <div class="header-actions">
           <a class="donate-btn" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.donate"></a>
-          <div class="lang-toggle" role="group" aria-label="Language switch">
-            <button type="button" id="lang-fr">FR</button>
-            <button type="button" id="lang-en">EN</button>
-          </div>
+          <div class="lang-toggle" role="group" aria-label="Language switch"><button type="button" id="lang-fr">FR</button><button type="button" id="lang-en">EN</button></div>
         </div>
       </div>
     </header>
@@ -39,10 +38,7 @@
           <p class="eyebrow" data-i18n="school.heroKicker"></p>
           <h1 data-i18n="school.heroTitle"></h1>
           <p data-i18n="school.heroText"></p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a>
-            <a class="btn btn-secondary" href="./sauver-ecole-mae-pai.html" data-i18n="common.ctaVolunteer"></a>
-          </div>
+          <div class="hero-actions"><a class="btn btn-primary" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a><a class="btn btn-secondary" href="./sauver-ecole-mae-pai.html" data-i18n="common.ctaVolunteer"></a></div>
         </div>
       </section>
 
@@ -50,51 +46,30 @@
         <article class="card text-card">
           <p class="label" data-i18n="school.s1Label"></p>
           <h2 data-i18n="school.s1Title"></h2>
-          <p data-i18n="school.s1Text"></p>
+          <p data-i18n="school.s1Text1"></p>
+          <p data-i18n="school.s1Text2"></p>
+          <p data-i18n="school.s1Text3"></p>
         </article>
-        <article class="card media-card">
-          <img src="./assets/images/ecole-20260129_110536.jpg" alt="Vie scolaire" width="1800" height="1014" loading="lazy" decoding="async" />
-        </article>
+        <article class="card media-card"><img src="./assets/images/ecole-20260129_110536.jpg" alt="Vie scolaire" width="1800" height="1014" loading="lazy" decoding="async" /></article>
       </section>
 
       <section class="container section section-grid">
-        <article class="card media-card">
-          <img src="./assets/images/ecole-20260128_112713.jpg" alt="Batiment de l ecole" width="1800" height="1014" loading="lazy" decoding="async" />
-        </article>
+        <article class="card media-card"><img src="./assets/images/ecole-20260128_112713.jpg" alt="Batiment de l ecole" width="1800" height="1014" loading="lazy" decoding="async" /></article>
         <article class="card text-card">
           <p class="label" data-i18n="school.s2Label"></p>
           <h2 data-i18n="school.s2Title"></h2>
-          <p data-i18n="school.s2Text"></p>
+          <p data-i18n="school.s2Text1"></p>
+          <p data-i18n="school.s2Text2"></p>
+          <p data-i18n="school.s2Text3"></p>
         </article>
       </section>
 
       <section class="container section" id="besoins">
-        <article class="card text-card">
-          <p class="label" data-i18n="school.s3Label"></p>
-          <h2 data-i18n="school.s3Title"></h2>
-        </article>
+        <article class="card text-card"><p class="label" data-i18n="school.s3Label"></p><h2 data-i18n="school.s3Title"></h2></article>
         <div class="section-grid three" style="margin-top: 14px">
-          <article class="card feature-card">
-            <img src="./assets/images/renovation-20260128_111233.jpg" alt="Renovation" width="1800" height="1014" loading="lazy" decoding="async" />
-            <div class="body">
-              <h3 data-i18n="school.s3Card1Title"></h3>
-              <p data-i18n="school.s3Card1Text"></p>
-            </div>
-          </article>
-          <article class="card feature-card">
-            <img src="./assets/images/renovation-20260128_110648.jpg" alt="Electricite" width="1800" height="1014" loading="lazy" decoding="async" />
-            <div class="body">
-              <h3 data-i18n="school.s3Card2Title"></h3>
-              <p data-i18n="school.s3Card2Text"></p>
-            </div>
-          </article>
-          <article class="card feature-card">
-            <img src="./assets/images/renovation-20260128_110740.jpg" alt="Equipements" width="1800" height="1014" loading="lazy" decoding="async" />
-            <div class="body">
-              <h3 data-i18n="school.s3Card3Title"></h3>
-              <p data-i18n="school.s3Card3Text"></p>
-            </div>
-          </article>
+          <article class="card feature-card"><img src="./assets/images/renovation-20260128_111233.jpg" alt="Renovation" width="1800" height="1014" loading="lazy" decoding="async" /><div class="body"><h3 data-i18n="school.s3Card1Title"></h3><p data-i18n="school.s3Card1Text"></p></div></article>
+          <article class="card feature-card"><img src="./assets/images/renovation-20260128_110648.jpg" alt="Electricite" width="1800" height="1014" loading="lazy" decoding="async" /><div class="body"><h3 data-i18n="school.s3Card2Title"></h3><p data-i18n="school.s3Card2Text"></p></div></article>
+          <article class="card feature-card"><img src="./assets/images/renovation-20260128_110740.jpg" alt="Hydroelectricite" width="1800" height="1014" loading="lazy" decoding="async" /><div class="body"><h3 data-i18n="school.s3Card3Title"></h3><p data-i18n="school.s3Card3Text"></p></div></article>
         </div>
       </section>
 
@@ -102,34 +77,33 @@
         <article class="card text-card">
           <p class="label" data-i18n="school.s4Label"></p>
           <h2 data-i18n="school.s4Title"></h2>
-          <p data-i18n="school.s4Text"></p>
+          <p data-i18n="school.s4Text1"></p>
+          <p data-i18n="school.s4Text2"></p>
+          <p data-i18n="school.s4Text3"></p>
         </article>
       </section>
 
-      <section class="container card last-cta">
-        <div>
+      <section class="container card spotlight-cta">
+        <img src="./assets/images/volontariat-20260209_142935.jpg" alt="Soutenir l ecole" width="1800" height="1014" loading="lazy" decoding="async" />
+        <div class="spotlight-overlay"></div>
+        <div class="spotlight-content">
           <h2 data-i18n="school.lastTitle"></h2>
           <p data-i18n="school.lastText"></p>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a>
-          <a class="btn btn-secondary" href="./sauver-ecole-mae-pai.html" data-i18n="common.navSave"></a>
+          <div class="spotlight-actions"><a class="btn btn-primary" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a><a class="btn btn-secondary" href="./sauver-ecole-mae-pai.html" data-i18n="common.navSave"></a></div>
         </div>
       </section>
-
-      <footer class="container site-footer">
-        <div class="card footer-inner">
-          <h2 data-i18n="common.footerTitle"></h2>
-          <p data-i18n="common.footerText"></p>
-          <div class="footer-links">
-            <a href="mailto:mep.pab@gmail.com" data-i18n="common.footerContact"></a>
-            <a data-link="mep" target="_blank" rel="noreferrer" data-i18n="common.mepSite"></a>
-            <a href="./sauver-ecole-mae-pai.html" data-i18n="common.navSave"></a>
-          </div>
-          <p style="margin-top: 12px" data-i18n="common.footerLegal"></p>
-        </div>
-      </footer>
     </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div class="footer-top">
+          <div><h2 data-i18n="common.footerTitle"></h2><p data-i18n="common.footerText"></p><div class="footer-links"><a href="mailto:mep.pab@gmail.com" data-i18n="common.footerContact"></a></div></div>
+          <div><h3 data-i18n="common.footerNavTitle"></h3><div class="footer-nav"><a href="./index.html" data-i18n="common.navHome"></a><a href="./ecole-mae-pai.html" data-i18n="common.navSchool"></a><a href="./a-propos.html" data-i18n="common.navAbout"></a><a href="./sauver-ecole-mae-pai.html" data-i18n="common.navSave"></a></div></div>
+          <div><h3 data-i18n="common.footerActionTitle"></h3><div class="footer-actions"><a data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a><a data-link="volunteer" target="_blank" rel="noreferrer" data-i18n="common.volunteerSite"></a><a data-link="mep" target="_blank" rel="noreferrer" data-i18n="common.mepSite"></a></div></div>
+        </div>
+        <div class="footer-bottom"><span data-i18n="common.footerLegal"></span></div>
+      </div>
+    </footer>
 
     <script src="./app.js" defer></script>
   </body>

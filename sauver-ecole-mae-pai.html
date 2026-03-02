@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body data-page="save" data-title-key="save.title">
+    <div class="urgency-bar"><div class="container urgency-row"><span class="urgency-dot"></span><span data-i18n="common.urgency"></span></div></div>
+
     <header class="site-header">
       <div class="container header-row">
         <a class="brand" href="./index.html"><img src="./assets/logo-maepai.svg" alt="Mae Pai School Fund" /></a>
@@ -23,10 +25,7 @@
         </nav>
         <div class="header-actions">
           <a class="donate-btn" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.donate"></a>
-          <div class="lang-toggle" role="group" aria-label="Language switch">
-            <button type="button" id="lang-fr">FR</button>
-            <button type="button" id="lang-en">EN</button>
-          </div>
+          <div class="lang-toggle" role="group" aria-label="Language switch"><button type="button" id="lang-fr">FR</button><button type="button" id="lang-en">EN</button></div>
         </div>
       </div>
     </header>
@@ -39,10 +38,7 @@
           <p class="eyebrow" data-i18n="save.heroKicker"></p>
           <h1 data-i18n="save.heroTitle"></h1>
           <p data-i18n="save.heroText"></p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a>
-            <a class="btn btn-secondary" data-link="volunteer" target="_blank" rel="noreferrer" data-i18n="common.ctaVolunteer"></a>
-          </div>
+          <div class="hero-actions"><a class="btn btn-primary" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a><a class="btn btn-secondary" data-link="volunteer" target="_blank" rel="noreferrer" data-i18n="common.ctaVolunteer"></a></div>
         </div>
       </section>
 
@@ -50,12 +46,12 @@
         <article class="card text-card">
           <p class="label" data-i18n="save.vLabel"></p>
           <h2 data-i18n="save.vTitle"></h2>
-          <p data-i18n="save.vText"></p>
+          <p data-i18n="save.vText1"></p>
+          <p data-i18n="save.vText2"></p>
+          <p data-i18n="save.vText3"></p>
           <a class="btn btn-secondary" data-link="volunteer" target="_blank" rel="noreferrer" style="margin-top: 12px" data-i18n="common.ctaVolunteer"></a>
         </article>
-        <article class="card media-card">
-          <img src="./assets/images/volontariat-20260209_142935.jpg" alt="Volontariat" width="1800" height="1014" loading="lazy" decoding="async" />
-        </article>
+        <article class="card media-card"><img src="./assets/images/volontariat-20260209_142935.jpg" alt="Volontariat" width="1800" height="1014" loading="lazy" decoding="async" /></article>
       </section>
 
       <section class="container section">
@@ -63,27 +59,15 @@
           <p class="label" data-i18n="save.fLabel"></p>
           <h2 data-i18n="save.fTitle"></h2>
           <div class="quick-links" style="margin-top: 18px">
-            <article class="info-card">
-              <h3 data-i18n="save.pTitle"></h3>
-              <p data-i18n="save.pText"></p>
-              <a data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a>
-            </article>
-            <article class="info-card">
-              <h3 data-i18n="save.eTitle"></h3>
-              <p data-i18n="save.eText"></p>
-            </article>
-            <article class="info-card">
-              <h3 data-i18n="save.cTitle"></h3>
-              <p data-i18n="save.cText"></p>
-            </article>
+            <article class="info-card"><h3 data-i18n="save.pTitle"></h3><p data-i18n="save.pText"></p><a data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a></article>
+            <article class="info-card"><h3 data-i18n="save.eTitle"></h3><p data-i18n="save.eText"></p></article>
+            <article class="info-card"><h3 data-i18n="save.cTitle"></h3><p data-i18n="save.cText"></p></article>
           </div>
         </article>
       </section>
 
       <section class="container section section-grid">
-        <article class="card media-card">
-          <img src="./assets/images/volontariat-20260128_093129.jpg" alt="Communaute locale" width="1800" height="1014" loading="lazy" decoding="async" />
-        </article>
+        <article class="card media-card"><img src="./assets/images/volontariat-20260128_093129.jpg" alt="Communaute locale" width="1800" height="1014" loading="lazy" decoding="async" /></article>
         <article class="card text-card">
           <p class="label" data-i18n="save.contactLabel"></p>
           <h2 data-i18n="save.contactTitle"></h2>
@@ -92,30 +76,27 @@
         </article>
       </section>
 
-      <section class="container card last-cta">
-        <div>
+      <section class="container card spotlight-cta">
+        <img src="./assets/images/ecole-20260129_113103.jpg" alt="Ecole de Mae Pai" width="1800" height="1013" loading="lazy" decoding="async" />
+        <div class="spotlight-overlay"></div>
+        <div class="spotlight-content">
           <h2 data-i18n="save.lastTitle"></h2>
           <p data-i18n="save.lastText"></p>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a>
-          <a class="btn btn-secondary" data-link="volunteer" target="_blank" rel="noreferrer" data-i18n="common.ctaVolunteer"></a>
+          <div class="spotlight-actions"><a class="btn btn-primary" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a><a class="btn btn-secondary" data-link="volunteer" target="_blank" rel="noreferrer" data-i18n="common.ctaVolunteer"></a></div>
         </div>
       </section>
-
-      <footer class="container site-footer">
-        <div class="card footer-inner">
-          <h2 data-i18n="common.footerTitle"></h2>
-          <p data-i18n="common.footerText"></p>
-          <div class="footer-links">
-            <a href="mailto:mep.pab@gmail.com" data-i18n="common.footerContact"></a>
-            <a data-link="mep" target="_blank" rel="noreferrer" data-i18n="common.mepSite"></a>
-            <a href="./ecole-mae-pai.html" data-i18n="common.navSchool"></a>
-          </div>
-          <p style="margin-top: 12px" data-i18n="common.footerLegal"></p>
-        </div>
-      </footer>
     </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div class="footer-top">
+          <div><h2 data-i18n="common.footerTitle"></h2><p data-i18n="common.footerText"></p><div class="footer-links"><a href="mailto:mep.pab@gmail.com" data-i18n="common.footerContact"></a></div></div>
+          <div><h3 data-i18n="common.footerNavTitle"></h3><div class="footer-nav"><a href="./index.html" data-i18n="common.navHome"></a><a href="./ecole-mae-pai.html" data-i18n="common.navSchool"></a><a href="./a-propos.html" data-i18n="common.navAbout"></a><a href="./sauver-ecole-mae-pai.html" data-i18n="common.navSave"></a></div></div>
+          <div><h3 data-i18n="common.footerActionTitle"></h3><div class="footer-actions"><a data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a><a data-link="volunteer" target="_blank" rel="noreferrer" data-i18n="common.volunteerSite"></a><a data-link="mep" target="_blank" rel="noreferrer" data-i18n="common.mepSite"></a></div></div>
+        </div>
+        <div class="footer-bottom"><span data-i18n="common.footerLegal"></span></div>
+      </div>
+    </footer>
 
     <script src="./app.js" defer></script>
   </body>

@@ -13,6 +13,13 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body data-page="home" data-title-key="home.title">
+    <div class="urgency-bar">
+      <div class="container urgency-row">
+        <span class="urgency-dot"></span>
+        <span data-i18n="common.urgency"></span>
+      </div>
+    </div>
+
     <header class="site-header">
       <div class="container header-row">
         <a class="brand" href="./index.html"><img src="./assets/logo-maepai.svg" alt="Mae Pai School Fund" /></a>
@@ -52,36 +59,12 @@
           <p class="label" data-i18n="home.quickLabel"></p>
           <h2 data-i18n="home.quickTitle"></h2>
           <div class="quick-links" style="margin-top: 18px">
-            <article class="info-card">
-              <h3 data-i18n="home.card1Title"></h3>
-              <p data-i18n="home.card1Text"></p>
-              <a href="./a-propos.html" data-i18n="common.navAbout"></a>
-            </article>
-            <article class="info-card">
-              <h3 data-i18n="home.card2Title"></h3>
-              <p data-i18n="home.card2Text"></p>
-              <a href="./a-propos.html" data-i18n="common.navAbout"></a>
-            </article>
-            <article class="info-card">
-              <h3 data-i18n="home.card3Title"></h3>
-              <p data-i18n="home.card3Text"></p>
-              <a href="./ecole-mae-pai.html" data-i18n="common.navSchool"></a>
-            </article>
-            <article class="info-card">
-              <h3 data-i18n="home.card4Title"></h3>
-              <p data-i18n="home.card4Text"></p>
-              <a href="./ecole-mae-pai.html#besoins" data-i18n="common.navSchool"></a>
-            </article>
-            <article class="info-card">
-              <h3 data-i18n="home.card5Title"></h3>
-              <p data-i18n="home.card5Text"></p>
-              <a href="./ecole-mae-pai.html#plan" data-i18n="common.navSchool"></a>
-            </article>
-            <article class="info-card">
-              <h3 data-i18n="home.card6Title"></h3>
-              <p data-i18n="home.card6Text"></p>
-              <a href="./sauver-ecole-mae-pai.html" data-i18n="common.navSave"></a>
-            </article>
+            <article class="info-card"><h3 data-i18n="home.card1Title"></h3><p data-i18n="home.card1Text"></p><a href="./a-propos.html" data-i18n="common.navAbout"></a></article>
+            <article class="info-card"><h3 data-i18n="home.card2Title"></h3><p data-i18n="home.card2Text"></p><a href="./a-propos.html" data-i18n="common.navAbout"></a></article>
+            <article class="info-card"><h3 data-i18n="home.card3Title"></h3><p data-i18n="home.card3Text"></p><a href="./ecole-mae-pai.html" data-i18n="common.navSchool"></a></article>
+            <article class="info-card"><h3 data-i18n="home.card4Title"></h3><p data-i18n="home.card4Text"></p><a href="./ecole-mae-pai.html#besoins" data-i18n="common.navSchool"></a></article>
+            <article class="info-card"><h3 data-i18n="home.card5Title"></h3><p data-i18n="home.card5Text"></p><a href="./ecole-mae-pai.html#plan" data-i18n="common.navSchool"></a></article>
+            <article class="info-card"><h3 data-i18n="home.card6Title"></h3><p data-i18n="home.card6Text"></p><a href="./sauver-ecole-mae-pai.html" data-i18n="common.navSave"></a></article>
           </div>
         </article>
         <article class="card media-card">
@@ -90,44 +73,54 @@
       </section>
 
       <section class="container section stats">
-        <article class="stat">
-          <p class="value" data-i18n="home.stats1Value"></p>
-          <p class="name" data-i18n="home.stats1Name"></p>
-        </article>
-        <article class="stat">
-          <p class="value" data-i18n="home.stats2Value"></p>
-          <p class="name" data-i18n="home.stats2Name"></p>
-        </article>
-        <article class="stat">
-          <p class="value" data-i18n="home.stats3Value"></p>
-          <p class="name" data-i18n="home.stats3Name"></p>
-        </article>
+        <article class="stat"><p class="value" data-i18n="home.stats1Value"></p><p class="name" data-i18n="home.stats1Name"></p></article>
+        <article class="stat"><p class="value" data-i18n="home.stats2Value"></p><p class="name" data-i18n="home.stats2Name"></p></article>
+        <article class="stat"><p class="value" data-i18n="home.stats3Value"></p><p class="name" data-i18n="home.stats3Name"></p></article>
       </section>
 
-      <section class="container card last-cta">
-        <div>
+      <section class="container card spotlight-cta">
+        <img src="./assets/images/volontariat-20260209_142952.jpg" alt="Enfants de Mae Pai" width="1800" height="1014" loading="lazy" decoding="async" />
+        <div class="spotlight-overlay"></div>
+        <div class="spotlight-content">
           <h2 data-i18n="home.lastTitle"></h2>
           <p data-i18n="home.lastText"></p>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a>
-          <a class="btn btn-secondary" data-link="volunteer" target="_blank" rel="noreferrer" data-i18n="common.ctaVolunteer"></a>
+          <div class="spotlight-actions">
+            <a class="btn btn-primary" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a>
+            <a class="btn btn-secondary" data-link="volunteer" target="_blank" rel="noreferrer" data-i18n="common.ctaVolunteer"></a>
+          </div>
         </div>
       </section>
-
-      <footer class="container site-footer">
-        <div class="card footer-inner">
-          <h2 data-i18n="common.footerTitle"></h2>
-          <p data-i18n="common.footerText"></p>
-          <div class="footer-links">
-            <a href="mailto:mep.pab@gmail.com" data-i18n="common.footerContact"></a>
-            <a data-link="mep" target="_blank" rel="noreferrer" data-i18n="common.mepSite"></a>
-            <a href="./sauver-ecole-mae-pai.html" data-i18n="common.navSave"></a>
-          </div>
-          <p style="margin-top: 12px" data-i18n="common.footerLegal"></p>
-        </div>
-      </footer>
     </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div class="footer-top">
+          <div>
+            <h2 data-i18n="common.footerTitle"></h2>
+            <p data-i18n="common.footerText"></p>
+            <div class="footer-links"><a href="mailto:mep.pab@gmail.com" data-i18n="common.footerContact"></a></div>
+          </div>
+          <div>
+            <h3 data-i18n="common.footerNavTitle"></h3>
+            <div class="footer-nav">
+              <a href="./index.html" data-i18n="common.navHome"></a>
+              <a href="./ecole-mae-pai.html" data-i18n="common.navSchool"></a>
+              <a href="./a-propos.html" data-i18n="common.navAbout"></a>
+              <a href="./sauver-ecole-mae-pai.html" data-i18n="common.navSave"></a>
+            </div>
+          </div>
+          <div>
+            <h3 data-i18n="common.footerActionTitle"></h3>
+            <div class="footer-actions">
+              <a data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.ctaDonate"></a>
+              <a data-link="volunteer" target="_blank" rel="noreferrer" data-i18n="common.volunteerSite"></a>
+              <a data-link="mep" target="_blank" rel="noreferrer" data-i18n="common.mepSite"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom"><span data-i18n="common.footerLegal"></span></div>
+      </div>
+    </footer>
 
     <script src="./app.js" defer></script>
   </body>
