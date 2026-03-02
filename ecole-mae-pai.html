@@ -14,9 +14,12 @@
   <body data-page="school" data-title-key="school.title">
     <div class="urgency-bar"><div class="container urgency-row"><span class="urgency-dot"></span><span data-i18n="common.urgency"></span></div></div>
 
-    <header class="site-header">
+<header class="site-header">
       <div class="container header-row">
         <a class="brand" href="./index.html"><img src="./assets/logo-maepai.svg" alt="Mae Pai School Fund" /></a>
+        <div class="header-actions">
+          <a class="donate-btn" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.donate"></a>
+        </div>
         <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
@@ -25,11 +28,10 @@
           <a href="./ecole-mae-pai.html" data-nav="school" data-i18n="common.navSchool"></a>
           <a href="./a-propos.html" data-nav="about" data-i18n="common.navAbout"></a>
           <a href="./sauver-ecole-mae-pai.html" data-nav="save" data-i18n="common.navSave"></a>
+          <div class="nav-lang">
+            <div class="lang-toggle" role="group" aria-label="Language switch"><button type="button" id="lang-fr">FR</button><button type="button" id="lang-en">EN</button></div>
+          </div>
         </nav>
-        <div class="header-actions">
-          <a class="donate-btn" data-link="donate" target="_blank" rel="noreferrer" data-i18n="common.donate"></a>
-          <div class="lang-toggle" role="group" aria-label="Language switch"><button type="button" id="lang-fr">FR</button><button type="button" id="lang-en">EN</button></div>
-        </div>
       </div>
     </header>
 
