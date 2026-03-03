@@ -579,7 +579,19 @@ h2 {
 
 @media (max-width: 720px) {
   .hero {
+    display: flex;
+    align-items: flex-end;
     min-height: 420px;
+  }
+
+  .hero-content {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    max-width: 100%;
+    width: 100%;
+    padding: 20px 18px 18px;
   }
 
   .feature-card {
