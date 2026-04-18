@@ -44,29 +44,6 @@ img {
   margin-inline: auto;
 }
 
-.urgency-bar {
-  background: linear-gradient(90deg, #1f5f47 0%, #2b7c5d 100%);
-  color: #e7f6ee;
-  font-weight: 700;
-  font-size: 0.9rem;
-  padding: 10px 0;
-}
-
-.urgency-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.urgency-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 999px;
-  background: #9df4c2;
-  box-shadow: 0 0 0 8px rgba(157, 244, 194, 0.15);
-}
-
 .site-header {
   position: sticky;
   top: 0;
@@ -624,10 +601,6 @@ h2 {
 
   .feature-card .body {
     background: #fff;
-  }
-
-  .urgency-row {
-    justify-content: flex-start;
   }
 
   .spotlight-cta {
