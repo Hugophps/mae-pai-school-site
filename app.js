@@ -1,5 +1,5 @@
 const LINKS = {
-  donate: 'https://volontairemep.com/',
+  donate: 'https://soutenir.missionsetrangeres.com/b/mon-don',
   volunteer: 'https://volontairemep.com/',
   mep: 'https://www.mepasie.org/'
 };
