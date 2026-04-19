@@ -40,7 +40,7 @@ const I18N = {
         "Mae Pai compte environ 300 habitants. Les familles vivent d'une agriculture de montagne exigeante, avec peu de temps disponible pour l'accompagnement scolaire des enfants.",
       card3Title: "Situation de l'école",
       card3Text:
-        "L'école catholique, créée il y a environ 40 ans, fonctionne grâce au diocèse de Nakhon Sawan, aux MEP, à Enfants du Mékong et à une association locale de soutien.",
+        "L'école catholique commune, créée il y a environ 40 ans, fonctionne grâce au diocèse de Nakhon Sawan, aux MEP, à Enfants du Mékong et à une association locale de soutien.",
       card4Title: 'Évaluation des besoins',
       card4Text:
         'Rénovation globale des bâtiments, remplacement des batteries des panneaux solaires et investissements pédagogiques indispensables.',
@@ -90,13 +90,13 @@ const I18N = {
       s3Title: 'Travaux prioritaires à financer',
       s3Card1Title: 'Rénovation globale des bâtiments',
       s3Card1Text:
-        "À l'heure de la mise en ligne de ce site internet, un généreux donateur a annoncé prendre en charge l'intégralité du montant de la rénovation des bâtiments. Cela rend notre projet de sauvegarde de l'école encore plus concret.",
+        "Portes, persiennes, peintures et éléments structurels doivent être repris. À l'heure de la mise en ligne de ce site internet, un généreux donateur a annoncé prendre en charge l'intégralité du montant de la rénovation des bâtiments. Cela rend notre projet de sauvegarde de l'école encore plus concret.",
       s3Card2Title: "Alimentation électrique de l'école",
       s3Card2Text:
         "Les panneaux solaires restent opérationnels, mais les batteries ne tiennent plus la charge. Leur remplacement est urgent.",
-      s3Card3Title: 'Projection hydroélectrique',
+      s3Card3Title: 'Renouvellement du mobilier',
       s3Card3Text:
-        'Un projet de mini-unité hydroélectrique sur la rivière voisine est envisagé pour assurer une électricité plus stable 24h/24.',
+        "Le renouvellement du mobilier scolaire est une priorité pour améliorer les conditions d'apprentissage. Le projet prévoit l'équipement progressif des classes, ainsi que la création d'une salle bibliothèque et d'une salle musique. Budget estimé : 20 000 EUR.",
       s4Label: 'Plan de rénovation et perspectives',
       s4Title: 'Feuille de route 2026-2027',
       s4Text1:
@@ -225,7 +225,8 @@ const I18N = {
       card2Title: 'Mae Pai village',
       card2Text: 'Mae Pai has around 300 residents and depends on demanding mountain farming.',
       card3Title: 'School situation',
-      card3Text: 'The school is supported by Nakhon Sawan Diocese, MEP, Enfants du Mekong, and a local association.',
+      card3Text:
+        'The community Catholic school, founded around 40 years ago, is supported by Nakhon Sawan Diocese, MEP, Enfants du Mekong, and a local association.',
       card4Title: 'Needs assessment',
       card4Text: 'Building renovation, solar battery replacement, and educational equipment investment are required.',
       card5Title: 'Renovation roadmap',
@@ -264,11 +265,12 @@ const I18N = {
       s3Title: 'Priority works to fund',
       s3Card1Title: 'Full building renovation',
       s3Card1Text:
-        'At the time this website was published, a generous donor announced full coverage of the building renovation cost. This makes our school preservation project even more tangible.',
+        'Doors, shutters, paint, and structural repairs are needed. At the time this website was published, a generous donor announced full coverage of the building renovation cost. This makes our school preservation project even more tangible.',
       s3Card2Title: 'School power supply',
       s3Card2Text: 'Solar panels still work, but batteries need urgent replacement.',
-      s3Card3Title: 'Hydropower projection',
-      s3Card3Text: 'A micro-hydropower option is being considered for stable 24/7 power.',
+      s3Card3Title: 'Furniture Renewal',
+      s3Card3Text:
+        'Renewing school furniture is a priority to improve learning conditions. The project includes the gradual equipment of classrooms, along with the setup of a library room and a music room. Estimated budget: EUR 20,000.',
       s4Label: 'Renovation plan and outlook',
       s4Title: '2026-2027 roadmap',
       s4Text1: 'Targeted work start is after the 2026 rainy season.',
