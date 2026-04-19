@@ -180,17 +180,20 @@ const I18N = {
       heroTitle: 'Mentions légales du site',
       heroText: "Informations publiées conformément aux obligations générales d'information pour un site français.",
       edLabel: 'Éditeur du site',
-      edText: "Nom du projet : Sauvons l'école de Mae Pai. Responsable éditorial : à confirmer. Contact : mep.pab@gmail.com.",
+      edText:
+        "Le site du projet « Sauvons l'école de Mae Pai » est rattaché à l'organisme Missions Étrangères de Paris (MEP). Éditeur de référence : Missions Étrangères de Paris, 128 rue du Bac, 75007 Paris, France. Téléphone : 01 44 39 10 40. Contact du projet : mep.pab@gmail.com.",
       hostLabel: 'Hébergement',
-      hostText: 'Hébergement : Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis. Site : vercel.com.',
+      hostText:
+        'Le site est hébergé sur Vercel (Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis). Le nom de domaine est géré via LWS (Ligne Web Services).',
       dataLabel: 'Données personnelles',
-      dataText: "Aucun formulaire de collecte n'est actif à ce stade. Pour toute demande relative à vos données, contactez : mep.pab@gmail.com.",
+      dataText:
+        "Les informations éventuellement transmises via les formulaires de contact sont destinées au suivi des demandes liées au projet. Conformément aux règles applicables en France (Informatique et Libertés / RGPD), vous pouvez demander l'accès, la rectification ou la suppression de vos données en écrivant à mep.pab@gmail.com ou à Missions Étrangères de Paris, 128 rue du Bac, 75007 Paris.",
       cookiesLabel: 'Cookies',
       cookiesText:
         "Ce site n'utilise pas de cookies de suivi publicitaire à ce stade. Des cookies techniques peuvent être déposés par les services tiers utilisés.",
       ipLabel: 'Propriété intellectuelle',
       ipText:
-        "Les textes, visuels et ressources de ce site sont protégés. Toute reproduction totale ou partielle nécessite l'autorisation préalable des ayants droit."
+        "Les contenus (textes, visuels, photographies, éléments graphiques) sont protégés par le droit d'auteur et le droit de la propriété intellectuelle. Toute reproduction, même partielle, est interdite sans autorisation préalable des ayants droit."
     }
   },
   en: {
@@ -332,15 +335,19 @@ const I18N = {
       heroTitle: 'Website legal notice',
       heroText: 'Information published according to standard legal disclosure practices for a French website.',
       edLabel: 'Website publisher',
-      edText: 'Project name: Save Mae Pai School. Publishing manager: to be confirmed. Contact: mep.pab@gmail.com.',
+      edText:
+        "The 'Save Mae Pai School' project website is affiliated with Missions Étrangères de Paris (MEP). Reference publisher: Missions Étrangères de Paris, 128 rue du Bac, 75007 Paris, France. Phone: +33 1 44 39 10 40. Project contact: mep.pab@gmail.com.",
       hostLabel: 'Hosting',
-      hostText: 'Hosting: Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA. Website: vercel.com.',
+      hostText:
+        'The website is hosted on Vercel (Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA). The domain name is managed through LWS (Ligne Web Services).',
       dataLabel: 'Personal data',
-      dataText: 'No active data collection form at this stage. For data-related requests, contact: mep.pab@gmail.com.',
+      dataText:
+        'Information submitted through contact forms is used only to process project-related requests. In accordance with applicable French and EU data-protection rules, you may request access, correction, or deletion of your data by writing to mep.pab@gmail.com or to Missions Étrangères de Paris, 128 rue du Bac, 75007 Paris, France.',
       cookiesLabel: 'Cookies',
       cookiesText: 'No advertising tracking cookies are intentionally used at this stage.',
       ipLabel: 'Intellectual property',
-      ipText: 'Texts, visuals, and resources are protected. Any reproduction requires prior authorization from rights holders.'
+      ipText:
+        'All content (texts, visuals, photographs, and graphic elements) is protected by copyright and intellectual-property law. Any reproduction, even partial, requires prior authorization from rights holders.'
     }
   }
 };
