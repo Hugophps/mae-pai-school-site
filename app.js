@@ -90,7 +90,7 @@ const I18N = {
       s3Title: 'Travaux prioritaires à financer',
       s3Card1Title: 'Rénovation globale des bâtiments',
       s3Card1Text:
-        "Portes, persiennes, peintures et éléments structurels doivent être repris. Un devis local situe cette phase autour de 36 000 EUR (équivalent THB à confirmer).",
+        "À l'heure de la mise en ligne de ce site internet, un généreux donateur a annoncé prendre en charge l'intégralité du montant de la rénovation des bâtiments. Cela rend notre projet de sauvegarde de l'école encore plus concret.",
       s3Card2Title: "Alimentation électrique de l'école",
       s3Card2Text:
         "Les panneaux solaires restent opérationnels, mais les batteries ne tiennent plus la charge. Leur remplacement est urgent.",
@@ -263,7 +263,8 @@ const I18N = {
       s3Label: 'Needs assessment',
       s3Title: 'Priority works to fund',
       s3Card1Title: 'Full building renovation',
-      s3Card1Text: 'Doors, shutters, paint, and structural repairs are needed.',
+      s3Card1Text:
+        'At the time this website was published, a generous donor announced full coverage of the building renovation cost. This makes our school preservation project even more tangible.',
       s3Card2Title: 'School power supply',
       s3Card2Text: 'Solar panels still work, but batteries need urgent replacement.',
       s3Card3Title: 'Hydropower projection',
