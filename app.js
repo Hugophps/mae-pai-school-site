@@ -19,7 +19,7 @@ const I18N = {
       footerContact: 'Nous écrire : mep.pab@gmail.com',
       footerNavTitle: 'Navigation',
       footerActionTitle: "Passer à l'action",
-      footerLegal: 'Mentions : certaines informations opérationnelles restent à confirmer avant publication officielle.',
+      footerRights: 'Volontaire MEP - tous droits réservés @{{year}}',
       legalPage: 'Mentions légales',
       mepSite: 'Site MEP',
       volunteerSite: 'Volontariat MEP'
@@ -210,7 +210,7 @@ const I18N = {
       footerContact: 'Write to us: mep.pab@gmail.com',
       footerNavTitle: 'Navigation',
       footerActionTitle: 'Take action',
-      footerLegal: 'Notes: some operational details remain to be confirmed before official publication.',
+      footerRights: 'Volontaire MEP - all rights reserved @{{year}}',
       legalPage: 'Legal notice',
       mepSite: 'MEP website',
       volunteerSite: 'MEP volunteering'
@@ -372,7 +372,9 @@ function setLanguage(lang) {
   document.querySelectorAll('[data-i18n]').forEach((node) => {
     const key = node.getAttribute('data-i18n');
     const value = get(dict, key);
-    if (typeof value === 'string') node.textContent = value;
+    if (typeof value === 'string') {
+      node.textContent = value.replace('{{year}}', String(new Date().getFullYear()));
+    }
   });
 
   document.querySelectorAll('[data-link="donate"]').forEach((el) => {

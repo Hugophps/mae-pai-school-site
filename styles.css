@@ -519,6 +519,31 @@ h2 {
   padding-top: 24px;
   font-size: 0.88rem;
   color: #9ec1b0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.footer-legal-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(214, 238, 226, 0.35);
+  background: rgba(214, 238, 226, 0.08);
+  color: #e6f6ee;
+  font-weight: 700;
+  transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+.footer-legal-link:hover {
+  background: rgba(214, 238, 226, 0.18);
+  border-color: rgba(214, 238, 226, 0.6);
+  color: #fff;
+  transform: translateY(-1px);
 }
 
 @media (max-width: 1020px) {
@@ -575,6 +600,12 @@ h2 {
   .stats,
   .footer-top {
     grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
   }
 }
 
