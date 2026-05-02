@@ -357,6 +357,12 @@ h2 {
   margin: 10px 0 0;
 }
 
+.feature-card .feature-amount {
+  margin-top: 8px;
+  font-weight: 800;
+  color: #1f5f47;
+}
+
 .feature-card img {
   display: block;
   width: 100%;

@@ -1,7 +1,8 @@
 const LINKS = {
-  donate: 'https://soutenir.missionsetrangeres.com/b/mon-don',
+  donate: './sauver-ecole-mae-pai.html#soutien-individuel',
   volunteer: 'https://volontairemep.com/',
-  mep: 'https://www.mepasie.org/'
+  mep: 'https://www.mepasie.org/',
+  rib: './assets/docs/Seminaire-RIB-MEP.pdf'
 };
 
 const I18N = {
@@ -31,7 +32,7 @@ const I18N = {
       heroText:
         "À Mae Pai et Tiloplo, deux villages montagneux isolés du nord-ouest de la Thaïlande, l'école est un point d'appui vital pour les enfants. Sans subvention publique, elle doit être rénovée rapidement pour continuer à protéger et former durablement les élèves.",
       quickLabel: 'Synthèse du projet',
-      quickTitle: "Version concise des pages École et À propos",
+      quickTitle: 'Éléments de contexte & À propos',
       card1Title: 'Contexte Karen en Thaïlande',
       card1Text:
         "Les Karens vivent souvent en marge du développement rapide du pays. Les fragilités économiques et sociales touchent d'abord les enfants, et l'école demeure leur principal refuge.",
@@ -55,8 +56,8 @@ const I18N = {
       stats2Value: '75-80',
       stats2Name: 'Effectif potentiel avec de bonnes conditions',
       stats3Value: '36 000 EUR',
-      stats3Name: 'Ordre de grandeur du devis rénovation (à confirmer)',
-      lastTitle: "Chaque don accélère la rénovation de l'école",
+      stats3Name: "Montant du devis de rénovation des bâtiments qu’un très généreux donateur s’est engagé à couvrir. Reste l’équipement de l’école !",
+      lastTitle: "Chaque don accélère la remise à niveau de l'école",
       lastText:
         "Notre objectif est simple : maintenir les enfants dans leur village, renforcer la qualité de l'enseignement et préparer l'avenir de Mae Pai."
     },
@@ -85,22 +86,24 @@ const I18N = {
       s2Text2:
         "L'école de Mae Pai a été fondée il y a environ 40 ans. Les enseignants actuels en sont eux-mêmes issus, preuve de son impact local durable.",
       s2Text3:
-        "Le projet est soutenu par le diocèse de Nakhon Sawan, les MEP, Enfants du Mékong et une association locale qui ne peut toutefois couvrir l'ensemble des besoins.",
+        "L’école est financée par le diocèse de Nakhon Sawan avec le soutien des Missions Etrangères de Paris. Une association locale lui vient également en aide, mais toutes ces bonnes volontés couvrent tout juste les frais de fonctionnement et ne permettent pas de financer les investissements nécessaires.",
       s3Label: 'Évaluation des besoins',
       s3Title: 'Travaux prioritaires à financer',
       s3Card1Title: 'Rénovation globale des bâtiments',
+      s3Card1Amount: 'Montant 36 000 EUR',
       s3Card1Text:
         "Portes, persiennes, peintures et éléments structurels doivent être repris. À l'heure de la mise en ligne de ce site internet, un généreux donateur a annoncé prendre en charge l'intégralité du montant de la rénovation des bâtiments. Cela rend notre projet de sauvegarde de l'école encore plus concret.",
       s3Card2Title: "Alimentation électrique de l'école",
+      s3Card2Amount: 'Montant 8 000 EUR',
       s3Card2Text:
-        "Les panneaux solaires restent opérationnels, mais les batteries ne tiennent plus la charge. Leur remplacement est urgent.",
-      s3Card3Title: 'Renouvellement du mobilier',
+        "Le village de Mae Pai n’est pas raccordé au réseau électrique thaïlandais. L’électrification de l’école repose donc sur des panneaux solaires et des batteries installés il y a plus de 10 ans. Les panneaux solaires restent opérationnels, mais les batteries ne tiennent plus la charge. Leur remplacement est urgent.",
+      s3Card3Title: 'Renouvellement du mobilier et des équipements pédagogiques (y compris une salle de musique)',
+      s3Card3Amount: 'Montant 12 000 EUR',
       s3Card3Text:
-        "Le renouvellement du mobilier scolaire est une priorité pour améliorer les conditions d'apprentissage. Le projet prévoit l'équipement progressif des classes, ainsi que la création d'une salle bibliothèque et d'une salle musique. Budget estimé : 20 000 EUR.",
+        "Le renouvellement du mobilier scolaire est une priorité pour améliorer les conditions d'apprentissage. Le projet prévoit l'équipement progressif des classes, ainsi que la création d'une salle bibliothèque et d'une salle musique.",
       s4Label: 'Plan de rénovation et perspectives',
       s4Title: 'Feuille de route 2026-2027',
-      s4Text1:
-        "Le démarrage des travaux est visé à la fin de la saison des pluies 2026. La priorité est de stopper l'hémorragie des classes CM1/CM2.",
+      s4Text1: "Les travaux de rénovation démarreront dès ce printemps 2026. La priorité est de stopper l'hémorragie des classes CM1/CM2.",
       s4Text2:
         "La remise à niveau énergétique permettra aussi d'envisager des cours du soir diplômants pour les adultes du village.",
       s4Text3:
@@ -159,13 +162,19 @@ const I18N = {
       fTitle: 'Trois modes de soutien financier',
       pTitle: 'Soutien individuel / particuliers',
       pText:
-        "Je souhaite soutenir financièrement l'école et le village de Mae Pai via les MEP. En France, la donation peut être défiscalisée à hauteur de 66% selon votre situation.",
+        'Pour participer au financement du projet, vous pouvez faire un virement sur le compte des Missions Etrangères de Paris en précisant bien "Projet Mae Pai" et en précisant votre adresse pour l\'envoi de votre avoir fiscal. Vous pouvez également envoyer un chèque à l’ordre « Missions Étrangères de Paris » en précisant « opération école Mae Pai ».',
+      pText2:
+        "Adresse d'envoi des chèques : Missions Etrangères de Paris, 128 rue du Bac, 75007 Paris - France.",
+      pRibDownload: 'Télécharger le RIB (PDF)',
       eTitle: 'Soutien établissements scolaires',
       eText:
-        "Je peux organiser une campagne de sensibilisation : opération bol de riz, concours de dessins solidaires « mon école de rêve », ou relais sportif.",
+        'Je peux organiser une campagne de sensibilisation et amener les élèves à participer à une cause juste : opération bol de riz, concours de dessins solidaires « mon école de rêve », par exemple. Toute autre opération du type relais « course à pied ou natation » ou autre, est évidemment laissée à la discrétion des établissements. Les recettes peuvent être transmises aux MEP par chèque libellé à l’ordre « Missions Étrangères de Paris » en précisant bien « opération école Mae Pai ». Missions Etrangères de Paris, 128 rue du Bac, 75007 Paris - France.',
+      eInfoTitle: 'Pour plus d’informations',
+      eInfoText:
+        "Pour de plus amples informations ou des idées d’organisation d’événements, vous pouvez envoyer un email à l’adresse suivante : phippsar@yahoo.fr",
       cTitle: 'Soutien fondations et entreprises',
       cText:
-        "Je souhaite engager mon entreprise sur tout ou partie du projet. Un contact dédié avec l'équipe MEP permet de cadrer l'accompagnement.",
+        'Je souhaite engager mon entreprise sur ce projet. Contactez-nous pour de plus amples informations. Messagerie électronique : mep.pab@gmail.com.',
       contactLabel: 'Contactez-nous',
       contactTitle: 'Prenons contact pour organiser votre soutien',
       contactText:
@@ -222,7 +231,7 @@ const I18N = {
       heroText:
         'In Mae Pai and Tiloplo, two isolated mountain villages in northwestern Thailand, school is a vital support point for children. Without public subsidy, Mae Pai school needs rapid renovation.',
       quickLabel: 'Project overview',
-      quickTitle: 'Concise version of School and About pages',
+      quickTitle: 'Context elements & About',
       card1Title: 'Karen context in Thailand',
       card1Text: 'Karen communities often remain outside major development routes. School remains a critical safe place for children.',
       card2Title: 'Mae Pai village',
@@ -241,8 +250,8 @@ const I18N = {
       stats2Value: '75-80',
       stats2Name: 'Potential enrollment with better conditions',
       stats3Value: 'EUR 36,000',
-      stats3Name: 'Estimated renovation quote (to be confirmed)',
-      lastTitle: 'Every donation speeds up school renovation',
+      stats3Name: 'Building-renovation estimate fully covered by a very generous donor. What remains is the school equipment.',
+      lastTitle: 'Every donation speeds up school modernization',
       lastText: 'Our goal is clear: keep children in their village, improve learning quality, and strengthen Mae Pai future.'
     },
     school: {
@@ -263,20 +272,25 @@ const I18N = {
       s2Title: 'A school born from mission work in Karen areas',
       s2Text1: 'Several Catholic schools were created in underserved Karen mountain villages under MEP mission work.',
       s2Text2: 'Mae Pai school was founded about 40 years ago and remains central to local education.',
-      s2Text3: 'Support includes Nakhon Sawan Diocese, MEP, Enfants du Mekong, and a local association.',
+      s2Text3:
+        'The school is financed by the Nakhon Sawan Diocese with support from Missions Étrangères de Paris. A local association also helps, but these combined efforts only cover operating costs and do not fund the required investments.',
       s3Label: 'Needs assessment',
       s3Title: 'Priority works to fund',
       s3Card1Title: 'Full building renovation',
+      s3Card1Amount: 'Amount EUR 36,000',
       s3Card1Text:
         'Doors, shutters, paint, and structural repairs are needed. At the time this website was published, a generous donor announced full coverage of the building renovation cost. This makes our school preservation project even more tangible.',
       s3Card2Title: 'School power supply',
-      s3Card2Text: 'Solar panels still work, but batteries need urgent replacement.',
-      s3Card3Title: 'Furniture Renewal',
+      s3Card2Amount: 'Amount EUR 8,000',
+      s3Card2Text:
+        'Mae Pai village is not connected to the Thai power grid. The school therefore relies on solar panels and batteries installed more than 10 years ago. The panels still operate, but the batteries no longer hold charge and need urgent replacement.',
+      s3Card3Title: 'Furniture and learning equipment renewal (including a music room)',
+      s3Card3Amount: 'Amount EUR 12,000',
       s3Card3Text:
-        'Renewing school furniture is a priority to improve learning conditions. The project includes the gradual equipment of classrooms, along with the setup of a library room and a music room. Estimated budget: EUR 20,000.',
+        'Renewing school furniture is a priority to improve learning conditions. The project includes the gradual equipment of classrooms, along with the setup of a library room and a music room.',
       s4Label: 'Renovation plan and outlook',
       s4Title: '2026-2027 roadmap',
-      s4Text1: 'Targeted work start is after the 2026 rainy season.',
+      s4Text1: 'Renovation works are scheduled to start in spring 2026. The top priority is to stop enrollment decline in upper primary classes.',
       s4Text2: 'Energy upgrades support evening classes and local training opportunities.',
       s4Text3: 'Renovation also helps teachers focus fully on education.',
       lastTitle: 'Fund field priorities now',
@@ -318,11 +332,19 @@ const I18N = {
       fLabel: 'Financial support',
       fTitle: 'Three ways to provide support',
       pTitle: 'Individual donors',
-      pText: 'Support Mae Pai school financially through MEP channels.',
+      pText:
+        'To support this project, you can make a bank transfer to Missions Étrangères de Paris, clearly indicating "Projet Mae Pai" and your postal address for tax-receipt processing. You can also send a check payable to "Missions Étrangères de Paris" with the note "opération école Mae Pai".',
+      pText2: 'Check mailing address: Missions Etrangeres de Paris, 128 rue du Bac, 75007 Paris - France.',
+      pRibDownload: 'Download bank details (PDF)',
       eTitle: 'Schools and institutions',
-      eText: 'Possible actions include rice-bowl operations, drawing contests, and relay events.',
+      eText:
+        'I can organize an awareness campaign and involve students in a meaningful cause: rice-bowl operation, solidarity drawing contest ("my dream school"), for example. Any other format such as running or swimming relays is at each school’s discretion. Funds can be sent by check payable to "Missions Étrangères de Paris" with the note "opération école Mae Pai". Missions Etrangeres de Paris, 128 rue du Bac, 75007 Paris - France.',
+      eInfoTitle: 'For more information',
+      eInfoText:
+        'For additional ideas or event-support guidance, you can email: phippsar@yahoo.fr',
       cTitle: 'Corporate and foundation support',
-      cText: 'Companies can support all or part of the project with dedicated MEP coordination.',
+      cText:
+        'I would like to support this project through my company. Contact us for more information. Email: mep.pab@gmail.com.',
       contactLabel: 'Contact us',
       contactTitle: 'Let us organize your contribution',
       contactText: 'We help direct your support toward the most urgent priorities.',
@@ -379,6 +401,8 @@ function setLanguage(lang) {
 
   document.querySelectorAll('[data-link="donate"]').forEach((el) => {
     el.setAttribute('href', LINKS.donate);
+    el.setAttribute('target', '_self');
+    el.removeAttribute('rel');
   });
 
   document.querySelectorAll('[data-link="volunteer"]').forEach((el) => {
@@ -387,6 +411,10 @@ function setLanguage(lang) {
 
   document.querySelectorAll('[data-link="mep"]').forEach((el) => {
     el.setAttribute('href', LINKS.mep);
+  });
+
+  document.querySelectorAll('[data-link="rib"]').forEach((el) => {
+    el.setAttribute('href', LINKS.rib);
   });
 
   const titleKey = document.body.dataset.titleKey;
